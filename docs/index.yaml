@@ -9,6 +9,6 @@ entries:
     name: remote-template
     type: application
     urls:
-    - https://github.com/xiabai84/remote-template/remote-template-1.0.0.tgz
+    - remote-template-1.0.0.tgz
     version: 1.0.0
 generated: "2024-03-11T20:02:27.687212+01:00"
