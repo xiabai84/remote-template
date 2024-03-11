@@ -1,0 +1,29 @@
+{{- $h := .Values.global }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: remote-template
+  labels:
+    app.kubernetes.io/name: remote-template
+    app.kubernetes.io/component: application
+    cron-restart: nightly
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: remote-template
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        run: remote-template
+        app.kubernetes.io/component: application
+    spec:
+      containers:
+        - name: remote-template
+          image: {{ include "common.image" (dict "i" (coalesce $h.imageAlias $h.name) "g" $) }}
+          ports:
+            - name: http-app
+              containerPort: 8080
+              protocol: TCP
