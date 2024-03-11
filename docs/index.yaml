@@ -3,7 +3,7 @@ entries:
   remote-template:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-11T17:30:59.380155+01:00"
+    created: "2024-03-11T20:02:27.687915+01:00"
     description: A Helm chart for Kubernetes
     digest: 8c72c559b275b91c67d79676deb52e4870ce76d39df0ab9555af78d2fca0855e
     name: remote-template
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://github.com/xiabai84/remote-template/remote-template-1.0.0.tgz
     version: 1.0.0
-generated: "2024-03-11T17:30:59.379456+01:00"
+generated: "2024-03-11T20:02:27.687212+01:00"
