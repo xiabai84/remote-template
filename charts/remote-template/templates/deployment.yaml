@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: remote-template
-          image: {{ include "common.image" (dict "i" (coalesce $h.imageAlias $h.name) "g" $) }}
+          image: default.image.registry:latest
           ports:
             - name: http-app
               containerPort: 8080
