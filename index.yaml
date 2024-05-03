@@ -3,6 +3,16 @@ entries:
   remote-template:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-05-03T19:12:59.379467485Z"
+    description: A Helm chart for Kubernetes
+    digest: 0e138d3320b05336e49b19fdac423d4002a3811313d762331c30fbbae5916c6d
+    name: remote-template
+    type: application
+    urls:
+    - https://github.com/xiabai84/remote-template/releases/download/remote-template-1.0.3/remote-template-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-05-03T19:10:58.614773581Z"
     description: A Helm chart for Kubernetes
     digest: a0def6e44bb2704060500e94fd65abdc1458b5e8e1674ac3fbbfe9b189820b0d
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/xiabai84/remote-template/releases/download/remote-template-1.0.1/remote-template-1.0.1.tgz
     version: 1.0.1
-generated: "2024-05-03T19:10:58.614800912Z"
+generated: "2024-05-03T19:12:59.379513421Z"
